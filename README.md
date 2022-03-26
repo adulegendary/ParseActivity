@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="![recorde integram](https://user-images.githubusercontent.com/78896535/160227279-32d60f5f-a8b7-48e0-b7f4-fcaad22a2852.gif)"
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
