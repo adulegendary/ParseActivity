@@ -7,9 +7,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import com.parse.ParseException
 import com.parse.ParseUser
-import kotlin.math.log
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,17 +18,18 @@ class LoginActivity : AppCompatActivity() {
             gotMainActivity()
         }
 
-   findViewById<Button>(R.id.button).setOnClickListener{
-       val username= findViewById<EditText>(R.id.userName).text.toString()
-        val password=findViewById<EditText>(R.id.rvPassword).text.toString()
+   findViewById<Button>(R.id.rvlogin).setOnClickListener{
+       val username= findViewById<EditText>(R.id.UserNameId).text.toString()
+        val password=findViewById<EditText>(R.id.passwordID).text.toString()
         loginUser(username,password)
 
     }
-    findViewById<Button>(R.id.signbtn).setOnClickListener{
-        val username= findViewById<EditText>(R.id.userName).text.toString()
-        val password=findViewById<EditText>(R.id.rvPassword).text.toString()
+    findViewById<Button>(R.id.signUp).setOnClickListener{
+        val username= findViewById<EditText>(R.id.UserNameId).text.toString()
+        val password=findViewById<EditText>(R.id.passwordID).text.toString()
         signUp(username,password)
     }
+
 
     }
     private fun signUp(username: String, password: String) {
