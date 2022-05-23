@@ -33,8 +33,9 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+<img src="![crypto_trucker](https://user-images.githubusercontent.com/78896535/169722058-9c478377-a3c2-403e-bf4d-df8a6ed2b217.gif)"
 
-<img src="![instegram_part](https://user-images.githubusercontent.com/78896535/161414716-795a5b47-a741-4f4a-b8ab-b2ae336c7498.gif)"
+"![instegram_part])"
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
